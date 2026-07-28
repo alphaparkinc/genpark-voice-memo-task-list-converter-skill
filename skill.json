@@ -1,0 +1,24 @@
+{
+  "name": "genpark-voice-memo-task-list-converter-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Voice memo to structured task list converter.",
+  "author": "genpark",
+  "category": "productivity",
+  "tags": [
+    "productivity",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "audio_transcript": {
+      "type": "str"
+    }
+  },
+  "outputs": {
+    "tasks": {
+      "type": "list"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
